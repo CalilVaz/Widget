@@ -4,7 +4,7 @@ import html2canvas from "html2canvas";
 import { Loading } from "../Loading";
 
 interface SreenshotButtonProps {
-    screenshot: String;
+    screenshot: string | null;
     onScreenshotTook: (screenshot: string | null) => void;
 }
 
